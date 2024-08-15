@@ -1,3 +1,6 @@
 export default function Home(){
-  return <h1>homepage</h1>
-}
+  return (
+  <div>
+    <h1>Hi my name is Zoey Lee.</h1>
+  </div>
+  )}
