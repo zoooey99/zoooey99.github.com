@@ -75,6 +75,7 @@ const config = {
       backgroundImage: {
         'hero': "url('../public/images/scuba.jpg')",
       },
+      
     },
   },
   plugins: [require("tailwindcss-animate")],
