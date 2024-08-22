@@ -23,23 +23,23 @@ export default function Home(){
         <Carousel>
           <CarouselContent>
               <CarouselItem className="basis-1/3 flex justify-center">
-              <div className=" w-64 h-64"><Image src="/images/cim-showcase.JPEG" alt="UM interactive media showcase!" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
+              <div className=" w-64 h-64"><Image src="/images/cim-showcase.jpeg" alt="UM interactive media showcase!" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
               </CarouselItem>
 
               <CarouselItem className="basis-1/3 flex justify-center">
-              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/ice-tub.JPEG" alt="coffee & chill ice tubs" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
+              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/ice-tub.jpeg" alt="coffee & chill ice tubs" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
               </CarouselItem>
 
               <CarouselItem className="basis-1/3 flex justify-center">
-              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/rock-climbing.JPG" alt="zoey on some rocks that are high in air" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
+              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/rock-climbing.jpeg" alt="zoey on some rocks that are high in air" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
               </CarouselItem>
 
               <CarouselItem className="basis-1/3 flex justify-center">
-              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/shooting.JPEG" alt="zoey shoot gun" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
+              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/shooting.jpeg" alt="zoey shoot gun" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
               </CarouselItem>
 
               <CarouselItem className="basis-1/3 flex justify-center">
-              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/suits.JPEG" alt="zoey and mia looking spiffy" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
+              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/suits.jpeg" alt="zoey and mia looking spiffy" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
               </CarouselItem>
 
           </CarouselContent>
