@@ -10,65 +10,89 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-
-
-export default function Home(){
+export default function Home() {
   return (
-    <div>
-
-      <div className="bg-hero bg-center bg-fixed flex items-center h-screen">
-          <h1 className="text-2xl text-white text-center mg-auto">Hi my name is Zoey Lee.</h1>
+    <div className="font-['Source_Sans_Pro',_sans-serif]">
+      <div className="bg-hero bg-center bg-fixed flex items-end justify-center h-screen pb-[25vh]">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl text-white text-center font-light">
+          Hi my name is <span className="font-bold">Zoey Lee</span>
+        </h1>
       </div>
       <div className="flex justify-center items-center">
         <Carousel>
           <CarouselContent>
-              <CarouselItem className="basis-1/3 flex justify-center">
-              <div className=" w-64 h-64"><Image src="/images/cim-showcase.jpeg" alt="UM interactive media showcase!" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
-              </CarouselItem>
-
-              <CarouselItem className="basis-1/3 flex justify-center">
-              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/ice-tub.jpeg" alt="coffee & chill ice tubs" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
-              </CarouselItem>
-
-              <CarouselItem className="basis-1/3 flex justify-center">
-              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/rock-climbing.jpeg" alt="zoey on some rocks that are high in air" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
-              </CarouselItem>
-
-              <CarouselItem className="basis-1/3 flex justify-center">
-              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/shooting.jpeg" alt="zoey shoot gun" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
-              </CarouselItem>
-
-              <CarouselItem className="basis-1/3 flex justify-center">
-              <div className="relative flex justify-center items-center w-64 h-64"><Image src="/images/suits.jpeg" alt="zoey and mia looking spiffy" width={300} height={300} objectFit="cover" objectPosition="center" /></div>
-              </CarouselItem>
-
+            <CarouselItem className="basis-1/3 flex justify-center">
+              <div className="w-64 h-64 relative">
+                <Image
+                  src="/images/cim-showcase.jpeg"
+                  alt="UM interactive media showcase!"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </CarouselItem>
+            <CarouselItem className="basis-1/3 flex justify-center">
+              <div className="w-64 h-64 relative">
+                <Image
+                  src="/images/ice-tub.jpeg"
+                  alt="coffee & chill ice tubs"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </CarouselItem>
+            <CarouselItem className="basis-1/3 flex justify-center">
+              <div className="w-64 h-64 relative">
+                <Image
+                  src="/images/rock-climbing.jpeg"
+                  alt="zoey on some rocks that are high in air"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </CarouselItem>
+            <CarouselItem className="basis-1/3 flex justify-center">
+              <div className="w-64 h-64 relative">
+                <Image
+                  src="/images/shooting.jpeg"
+                  alt="zoey shoot gun"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </CarouselItem>
+            <CarouselItem className="basis-1/3 flex justify-center">
+              <div className="w-64 h-64 relative">
+                <Image
+                  src="/images/suits.jpeg"
+                  alt="zoey and mia looking spiffy"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
-
         </Carousel>
-
       </div>
-      <div className="flex text-center">
-        <Button asChild>
-            <Link href="https://www.linkedin.com/in/zoeylee123/"><Linkedin className="h-4 w-4"/></Link>
-          </Button>
-          <Button asChild>
-            <Link href="mailto:zjl24@miami.edu"><Mail className="h-4 w-4"/></Link>
-          </Button>
-          <Button asChild>
-            <Link href="https://www.instagram.com/zoeylee.11/"><Instagram className="h-4 w-4"/></Link>
-          </Button>
-
+      <div className="flex justify-center mt-4">
+        <Button asChild className="mx-2">
+          <Link href="https://www.linkedin.com/in/zoeylee123/">
+            <Linkedin className="h-4 w-4" />
+          </Link>
+        </Button>
+        <Button asChild className="mx-2">
+          <Link href="mailto:zjl24@miami.edu">
+            <Mail className="h-4 w-4" />
+          </Link>
+        </Button>
+        <Button asChild className="mx-2">
+          <Link href="https://www.instagram.com/zoeylee.11/">
+            <Instagram className="h-4 w-4" />
+          </Link>
+        </Button>
       </div>
-
     </div>
-    
-  )}
-
-/**
- * Todo: figure out how to embed instagram posts. Tagged in?
- * Todo: Put in all pics that I want. Just throw them on there then after, figure out how to format. Or pick some shadcn formatting for now.
- * ? carosel
- * 
-*/
+  )
+}
