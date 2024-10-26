@@ -14,7 +14,7 @@ export default function ProjectsPage() {
     {
       title: "Personal Website",
       description: "A brief description of Project 1 and its key features.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/project-pics/website.jpeg",
       tags: ["React", "Node.js", "MongoDB"],
       githubUrl: "https://github.com/yourusername/project1",
       liveUrl: "https://project1.yourdomain.com",
@@ -23,7 +23,7 @@ export default function ProjectsPage() {
     {
       title: "Pitch Perfect",
       description: "An overview of Project 2 and what makes it unique.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/project-pics/pitch-perfect.jpeg",
       tags: ["Next.js", "TypeScript", "Tailwind CSS"],
       githubUrl: "https://github.com/yourusername/project2",
       liveUrl: "https://project2.yourdomain.com",
@@ -33,7 +33,7 @@ export default function ProjectsPage() {
     {
       title: "UM Rowing Recruit Experience",
       description: "Highlighting the main aspects and achievements of Project 3.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/project-pics/rowing-sunrise.jpeg",
       tags: ["Vue.js", "Express", "PostgreSQL"],
       githubUrl: "https://github.com/yourusername/project3",
       liveUrl: "https://project3.yourdomain.com",
@@ -43,6 +43,15 @@ export default function ProjectsPage() {
       title: "360° Videography",
       description: "Detailing the challenges and solutions in Project 4.",
       image: "/placeholder.svg?height=200&width=300",
+      tags: ["React Native", "Firebase", "Redux"],
+      githubUrl: "https://github.com/yourusername/project4",
+      liveUrl: "https://project4.yourdomain.com",
+      status: { type: "completed", startDate: "Mar 2024", endDate:" " }
+    },
+    {
+      title: "UM Soccer Senior Day 2023 - VR Film",
+      description: "Detailing the challenges and solutions in Project 5.",
+      image: "/images/project-pics/soccer-senior-day.jpeg",
       tags: ["React Native", "Firebase", "Redux"],
       githubUrl: "https://github.com/yourusername/project4",
       liveUrl: "https://project4.yourdomain.com",
