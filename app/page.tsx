@@ -19,7 +19,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
-import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
+import { navigationMenuTriggerStyle, navigationMenuTriggerStyleWhite } from "@/components/ui/navigation-menu"
 
 
 
@@ -33,7 +33,7 @@ export default function Home() {
         {/* about page */}
         <NavigationMenuItem>
           <Link href="/about" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyleWhite()}`}>
               About
             </NavigationMenuLink>
           </Link>
@@ -42,7 +42,7 @@ export default function Home() {
         {/* projects page */}
         <NavigationMenuItem>
           <Link href="/projects" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} outline outline-2 outline-offset-2 outline-white`}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyleWhite()} outline outline-2 outline-offset-2 outline-white`}>
               Projects
             </NavigationMenuLink>
           </Link>
@@ -51,7 +51,7 @@ export default function Home() {
         {/* website status page */}  
         <NavigationMenuItem>
           <Link href="/website-status" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyleWhite()}`}>
               Website Status
             </NavigationMenuLink>
           </Link>
@@ -60,7 +60,7 @@ export default function Home() {
         {/* stats page */}
         <NavigationMenuItem>
           <Link href="/stats" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyleWhite()}`}>
               Stats
             </NavigationMenuLink>
           </Link>

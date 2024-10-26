@@ -43,6 +43,9 @@ NavigationMenuList.displayName = NavigationMenuPrimitive.List.displayName
 const NavigationMenuItem = NavigationMenuPrimitive.Item
 
 const navigationMenuTriggerStyle = cva(
+  "group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-xl text-gray-900 dark:text-gray-100 font-medium transition-colors  hover:text-accent-foreground focus:focus:text-accent-foreground disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50"
+)
+const navigationMenuTriggerStyleWhite = cva(
   "group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-xl text-white font-medium transition-colors  hover:text-accent-foreground focus:focus:text-accent-foreground disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50"
 )
 
@@ -119,6 +122,7 @@ NavigationMenuIndicator.displayName =
 
 export {
   navigationMenuTriggerStyle,
+  navigationMenuTriggerStyleWhite,
   NavigationMenu,
   NavigationMenuList,
   NavigationMenuItem,
