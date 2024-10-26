@@ -27,13 +27,13 @@ export default function Home() {
   return (
     <div className="font-['Source_Sans_Pro',_sans-serif]">
       {/* navigation */}
-      <NavigationMenu>
+      <NavigationMenu className="bg-transparent absolute top-4 right-4 w-full z-10">
         <NavigationMenuList>
         
         {/* about page */}
         <NavigationMenuItem>
           <Link href="/about" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
               About
             </NavigationMenuLink>
           </Link>
@@ -42,7 +42,7 @@ export default function Home() {
         {/* projects page */}
         <NavigationMenuItem>
           <Link href="/projects" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} outline outline-2 outline-offset-2 outline-white`}>
               Projects
             </NavigationMenuLink>
           </Link>
@@ -51,7 +51,7 @@ export default function Home() {
         {/* website status page */}  
         <NavigationMenuItem>
           <Link href="/website-status" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
               Website Status
             </NavigationMenuLink>
           </Link>
@@ -60,7 +60,7 @@ export default function Home() {
         {/* stats page */}
         <NavigationMenuItem>
           <Link href="/stats" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
               Stats
             </NavigationMenuLink>
           </Link>
