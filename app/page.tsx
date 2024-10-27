@@ -82,7 +82,7 @@ export default function Home() {
         <Carousel className="w-full max-w-5xl">
           <CarouselContent className="-ml-2 md:-ml-4">
             {[
-              { src: "/images/cim-showcase.jpeg", alt: "UM interactive media showcase!" },
+              { src: "/images/cim-showcase.JPEG", alt: "UM interactive media showcase!" },
               { src: "/images/ice-tub.jpeg", alt: "coffee & chill ice tubs" },
               { src: "/images/rock-climbing.jpeg", alt: "zoey on some rocks that are high in air" },
               { src: "/images/shooting.jpeg", alt: "zoey shoot gun" },
