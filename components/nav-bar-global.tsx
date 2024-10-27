@@ -21,7 +21,7 @@ export default function NavbarGlobal(){
       
       {/* about page */}
       <NavigationMenuItem>
-        <Link href="/about" legacyBehavior passHref>
+        <Link href="/">
           <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
             About
           </NavigationMenuLink>

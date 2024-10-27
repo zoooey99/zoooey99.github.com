@@ -20,6 +20,7 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 import { navigationMenuTriggerStyle, navigationMenuTriggerStyleWhite } from "@/components/ui/navigation-menu"
+import FooterGlobal from "@/components/footer-global"
 
 
 
@@ -32,7 +33,7 @@ export default function Home() {
         
         {/* about page */}
         <NavigationMenuItem>
-          <Link href="/about" legacyBehavior passHref>
+          <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={`${navigationMenuTriggerStyleWhite()}`}>
               About
             </NavigationMenuLink>
@@ -106,21 +107,7 @@ export default function Home() {
 
       {/* personal links */}
       <div className="flex justify-center mt-4 pb-8">
-        <Button asChild className="mx-2">
-          <Link href="https://www.linkedin.com/in/zoeylee123/">
-            <Linkedin className="h-4 w-4" />
-          </Link>
-        </Button>
-        <Button asChild className="mx-2">
-          <Link href="mailto:zjl24@miami.edu">
-            <Mail className="h-4 w-4" />
-          </Link>
-        </Button>
-        <Button asChild className="mx-2">
-          <Link href="https://www.instagram.com/zoeylee.11/">
-            <Instagram className="h-4 w-4" />
-          </Link>
-        </Button>
+        <FooterGlobal/>
       </div>
     </div>
   )
