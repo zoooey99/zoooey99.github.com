@@ -31,7 +31,7 @@ export default function NavbarGlobal(){
       {/* projects page */}
       <NavigationMenuItem>
         <Link href="/projects" legacyBehavior passHref>
-          <NavigationMenuLink className={`${navigationMenuTriggerStyle()} outline outline-2 outline-offset-2 outline-white`}>
+          <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
             Projects
           </NavigationMenuLink>
         </Link>

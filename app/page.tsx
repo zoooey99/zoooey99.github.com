@@ -1,7 +1,6 @@
-import { Button } from "@/components/ui/button"
+
 import Link from "next/link"
 import Image from "next/image"
-import { Mail, Linkedin, Instagram } from "lucide-react"
 import {
   Carousel,
   CarouselContent,
@@ -26,7 +25,7 @@ import FooterGlobal from "@/components/footer-global"
 
 export default function Home() {
   return (
-    <div className="font-['Source_Sans_Pro',_sans-serif]">
+    <div className="font-['Lato',_sans-serif]">
       {/* navigation */}
       <NavigationMenu className="bg-transparent absolute top-4 right-4 w-full z-10">
         <NavigationMenuList>
@@ -43,7 +42,7 @@ export default function Home() {
         {/* projects page */}
         <NavigationMenuItem>
           <Link href="/projects" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyleWhite()} outline outline-2 outline-offset-2 outline-white`}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyleWhite()}`}>
               Projects
             </NavigationMenuLink>
           </Link>
@@ -73,7 +72,7 @@ export default function Home() {
       {/* header */}
       <div className="bg-hero bg-center bg-fixed flex items-end justify-center h-screen pb-[15vh]">
         <h1 className="text-5xl md:text-6xl lg:text-7xl text-white text-center font-light">
-          <span className="font-bold">HI!</span> my name is <span className="font-bold">Zoey Lee</span>
+          <span className="font-bold">Hi!</span> my name is <span className="font-bold">Zoey Lee</span>
         </h1>
       </div>
 
